@@ -1,0 +1,27 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Playwright & Browsers
+.cache/
+test-results/
+
+# OS and IDE files
+.DS_Store
+.vscode/
+.idea/
+
+# Large temporary models (if downloaded locally)
+*.bin
+*.safetensors
